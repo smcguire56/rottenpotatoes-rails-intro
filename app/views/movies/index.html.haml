@@ -4,7 +4,8 @@
 %table#movies
   %thead
     %tr
-      %th.hilite Movie Title
+      %th.hilite 
+        = link_to 'Movie Title', movies_path(:sort_param => "title"), :id => 'title_header'
       %th Rating
       %th Release Date
       %th More Info
