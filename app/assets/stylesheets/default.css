@@ -48,8 +48,8 @@ table#movies th, table#movies td {
   padding: 4px;
   text-align: left;
 }
-table#movies th.hilite {
-  background-color: yellow;
+.hilite a:visited {
+    background-color: yellow;
 }
 #notice #warning {
   background: rosybrown;
